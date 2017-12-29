@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class [
+<!ATTLIST element name ID #REQUIRED>
+<!ATTLIST element index CDATA #IMPLIED>
+]>
+<class name="MePageElements">
+	<!-- element 标签中，name的值与text标签中，english子元素的值保持一致 -->
+	<element name="meIcon">
+		<description>头像</description>
+		<resource-id>com.arisan1000.android:id/menu_user_icon</resource-id>
+	</element>
+
+	<element name="nickname">
+		<description>昵称</description>
+		<resource-id>com.arisan1000.android:id/menu_email</resource-id>
+		<!-- 未登录时昵称的文案 -->
+		<text>
+			<language name="english">balance:</language>
+			<language name="indonesal">Klik foto untuk masuk/daftar</language>
+		</text>
+	</element>
+
+	<element name="balance">
+		<description>余额</description>
+		<resource-id>com.arisan1000.android:id/balance</resource-id>
+		<text>
+			<language name="english">balance:</language>
+			<language name="indonesal">Saldo:</language>
+		</text>
+	</element>
+	<element name="topUp">
+		<description>充值</description>
+		<resource-id>com.arisan1000.android:id/me_top_up</resource-id>
+		<text>
+			<language name="english">Top Up</language>
+			<language name="indonesal">Isi ulang</language>
+		</text>
+	</element>
+
+	<!-- 个人中心的菜单 -->
+	<element name="creditsRecords">
+		<description>积分记录</description>
+		<resource-id>com.arisan1000.android:id/me_credits</resource-id>
+	</element>
+
+	<element name="orderRecords">
+		<description>订单记录</description>
+		<resource-id>com.arisan1000.android:id/me_order</resource-id>
+	</element>
+
+	<element name="help">
+		<description>帮助页面</description>
+		<resource-id>com.arisan1000.android:id/me_help</resource-id>
+	</element>
+
+	<element name="guide">
+		<description>新手引导</description>
+		<resource-id>com.arisan1000.android:id/me_guide</resource-id>
+	</element>
+	<element name="coupon">
+		<description>现金券兑换</description>
+		<resource-id>com.arisan1000.android:id/me_coupon</resource-id>
+	</element>
+	<element name="voucher">
+		<description>满返券</description>
+		<resource-id>com.arisan1000.android:id/me_voucher</resource-id>
+	</element>
+
+	<!-- 个人中心页面菜单上的文案 -->
+	<elements name="MenuTitle" id="com.arisan1000.android:id/me_item_title">
+		<element name="creditsItem" index="0">
+			<description>积分记录</description>
+			<text>
+				<language name="english">Share</language>
+				<language name="indonesal">Riwayat poin</language>
+			</text>
+		</element>
+		<element name="ordersItem" index="1">
+			<description>订单记录</description>
+			<text>
+				<language name="english">Order</language>
+				<language name="indonesal">Semua</language>
+			</text>
+		</element>
+		<element name="HelpItem" index="2">
+			<description>帮助菜单</description>
+			<text>
+				<language name="english">Help</language>
+				<language name="indonesal">Bantuan</language>
+			</text>
+		</element>
+		<element name="guideItem" index="3">
+			<description>新手引导</description>
+			<text>
+				<language name="english">Beginner's Guide</language>
+				<language name="indonesal">Petunjuk Utama</language>
+			</text>
+		</element>
+		<element name="couponItem" index="4">
+			<description>现金券兑换</description>
+			<text>
+				<language name="english">Coupon</language>
+				<language name="indonesal">Tukar Kupon</language>
+			</text>
+		</element>
+		<element name="voucherItem" index="5">
+			<description>满返券记录</description>
+			<text>
+				<language name="english">Voucher</language>
+				<language name="indonesal">Voucher Cash Back</language>
+			</text>
+		</element>
+	</elements>
+
+	<!-- 信息编辑页面元素 -->
+	<element name="editPageTitle">
+		<description>标题</description>
+		<resource-id>com.arisan1000.android:id/title_bar_title</resource-id>
+		<text>
+			<language name="english">Edit profile</language>
+			<language name="indonesal">Biodata Akun</language>
+		</text>
+	</element>
+	<element name="information">
+		<description>用户信息</description>
+		<resource-id>com.arisan1000.android:id/personal_info_item_tv_left</resource-id>
+		<text>
+			<language name="english">information</language>
+			<language name="indonesal">Informasi Akun</language>
+		</text>
+	</element>
+	
+	<!-- Edit profile页面菜单项 -->
+	<element name="username">
+		<description>用户名</description>
+		<resource-id>com.arisan1000.android:id/personal_info_name</resource-id>
+	</element>
+	
+	<element name="Email">
+		<description>电子邮箱</description>
+		<resource-id>com.arisan1000.android:id/personal_info_e_mail</resource-id>
+	</element>
+	
+	<element name="phoneNum">
+		<description>联系电话</description>
+		<resource-id>com.arisan1000.android:id/personal_info_phone</resource-id>
+	</element>
+	
+	<element name="address">
+		<description>电子邮箱</description>
+		<resource-id>com.arisan1000.android:id/personal_info_address</resource-id>
+	</element>
+	
+	<element name="logout">
+		<description>退出登录</description>
+		<resource-id>com.arisan1000.android:id/menu_logout</resource-id>
+		<text>
+				<language name="english">Logout</language>
+				<language name="indonesal">keluar</language>
+			</text>
+	</element>
+	
+	<!-- 退出登录的【取消】与【确认】按钮 -->
+	<element name="logoutAlertYes">
+		<description>【确认】按钮</description>
+		<resource-id>com.arisan1000.android:id/confirm_exit</resource-id>
+		<text>
+			<language name="english">Yes</language>
+			<language name="indonesal">YA</language>
+		</text>
+	</element>
+	
+	<element name="logoutAlertCancel">
+		<description>【取消】按钮</description>
+		<resource-id>com.arisan1000.android:id/cancel_exit</resource-id>
+		<text>
+			<language name="english">cancel</language>
+			<language name="indonesal">TIDAK</language>
+		</text>
+	</element>
+	
+	<!-- Edit profile页面菜单项对应的左侧文案 -->
+	<elements name="EditProfileItemTitle" id="com.arisan1000.android:id/personal_info_item_tv_left">
+		<element name="nameMenuItem" index="0">
+			<description>昵称</description>
+			<text>
+				<language name="english">Share</language>
+				<language name="indonesal">Nama Pengguna</language>
+			</text>
+		</element>
+		
+		<element name="EmailMenuItem" index="1">
+			<description>电子邮箱</description>
+			<text>
+				<language name="english">Share</language>
+				<language name="indonesal">E-mail</language>
+			</text>
+		</element>
+		
+		<element name="PhoneMenuItem" index="2">
+			<description>联系电话</description>
+			<text>
+				<language name="english">Share</language>
+				<language name="indonesal">Telepon</language>
+			</text>
+		</element>
+		
+		<element name="AddressMenuItem" index="3">
+			<description>通讯地址</description>
+			<text>
+				<language name="english">Share</language>
+				<language name="indonesal">	Akun yang dihubungkan</language>
+			</text>
+		</element>
+		
+	</elements>
+	
+	<!-- Edit profile页面菜单项对应的右侧文案 -->
+	<elements name="EditProfileItemValue" id="com.arisan1000.android:id/personal_info_item_tv_right">
+		<element name="nameValue" index="0">
+			<description>昵称</description>
+		</element>
+		
+		<element name="EmailValue" index="1">
+			<description>电子邮箱</description>
+		</element>
+		
+		<element name="phoneValue" index="2">
+			<description>联系电话</description>
+		</element>
+	</elements>
+	
+</class>

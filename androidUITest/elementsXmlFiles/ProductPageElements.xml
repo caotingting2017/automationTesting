@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class [
+<!ATTLIST element name ID #REQUIRED>
+<!ATTLIST element index CDATA #IMPLIED>
+]>
+<class name="ProductPageElements">
+	<!-- 份数选择框 -->
+	<element name="choiceMinusBtn">
+		<description>份数减按钮</description>
+		<resource-id>com.arisan1000.android:id/add_reduce_view_minus</resource-id>
+	</element>
+	<element name="choiceEditInput">
+		<description>份数输入框</description>
+		<resource-id>com.arisan1000.android:id/add_reduce_view_edit</resource-id>
+	</element>
+	<element name="choicePlusBtn">
+		<description>份数加按钮</description>
+		<resource-id>com.arisan1000.android:id/add_reduce_view_plus</resource-id>
+	</element>
+
+	<element name="choiceOneBtn">
+		<description>选择1份按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_one_times</resource-id>
+	</element>
+
+	<element name="choiceFiveBtn">
+		<description>选择5份按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_five_times</resource-id>
+	</element>
+
+	<element name="choiceTenBtn">
+		<description>选择10份按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_ten_times</resource-id>
+	</element>
+
+	<element name="choiceTwentyBtn">
+		<description>选择20份按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_twenty_times</resource-id>
+	</element>
+
+	<element name="choiceFiftyBtn">
+		<description>选择50份按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_fifty_times</resource-id>
+	</element>
+
+	<element name="choiceAllBtn">
+		<description>剩余份数按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_all</resource-id>
+	</element>
+
+	<element name="choiceConfirmBtn">
+		<description>选择1份按钮</description>
+		<resource-id>com.arisan1000.android:id/choice_view_confirm</resource-id>
+	</element>
+
+	<!--购买结果页面 -->
+	<element name="purchaseResultText">
+		<description>购买结果文案</description>
+		<resource-id>com.arisan1000.android:id/tv_pay_result</resource-id>
+		<text>
+			<language name="english">success</language>
+			<language name="indonesal">Berhasil membeli</language>
+		</text>
+	</element>
+
+	<element name="resultTips">
+		<description>结果提示信息</description>
+		<resource-id>com.arisan1000.android:id/tv_pay_result_tip</resource-id>
+		<text>
+			<language name="english">个人中心补充完整个人信息</language>
+			<language name="indonesal">Lengkapi biodata akun anda dan lihat
+				pengumuman pemenang di (Akun - Semua)</language>
+		</text>
+	</element>
+
+	<element name="purchaseAgainBtn">
+		<description>结果提示信息</description>
+		<resource-id>com.arisan1000.android:id/btn_double_left</resource-id>
+		<text>
+			<language name="english">【再次购买】按钮</language>
+			<language name="indonesal">Beli lagi</language>
+		</text>
+	</element>
+
+	<element name="purchaseConfirmBtn">
+		<description>【确认】按钮</description>
+		<resource-id>com.arisan1000.android:id/btn_double_right</resource-id>
+		<text>
+			<language name="english">个人中心补充完整个人信息</language>
+			<language name="indonesal">Konfirmasi</language>
+		</text>
+	</element>
+	
+	<!-- 商品详情页面 -->
+	<element name="productPageBuyBtn">
+		<description>【购买】按钮</description>
+		<resource-id>com.arisan1000.android:id/product_detail_buy_now</resource-id>
+		<text>
+			<language name="english">个人中心补充完整个人信息</language>
+			<language name="indonesal">menangkan sekarang</language>
+		</text>
+	</element>
+
+	<element name="allParticipantsRecordMenu">
+		<description>所有参与者记录菜单栏</description>
+		<resource-id>com.arisan1000.android:id/ll_record_detail</resource-id>
+	</element>
+
+	<element name="historicalWinnerMenu">
+		<description>历史中奖记录菜单栏</description>
+		<resource-id>com.arisan1000.android:id/ll_historical_winners</resource-id>
+	</element>
+	
+	<element name="productDetailMenu">
+		<description>历史中奖记录菜单栏</description>
+		<resource-id>com.arisan1000.android:id/ll_product_detail</resource-id>
+	</element>
+	
+	
+</class>

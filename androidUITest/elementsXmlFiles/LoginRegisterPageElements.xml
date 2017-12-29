@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class [
+<!ATTLIST element name ID #REQUIRED>
+<!ATTLIST element index CDATA #IMPLIED>
+]>
+<class name="GuidePageElements">
+
+	<!-- 登录注册页面 -->
+	<!-- 登录注册页面顶部图片部分 -->
+	<element name="loginRegister">
+		<description>登录注册页面顶部图片</description>
+		<resource-id>com.arisan1000.android:id/layout_register_cover</resource-id>
+	</element>
+
+	<element name="returnBtn">
+		<description>返回按钮</description>
+		<resource-id>com.arisan1000.android:id/return_iv</resource-id>
+	</element>
+
+	<element name="start">
+		<description>开始按钮</description>
+		<!-- <name>start</name> -->
+		<resource-id>com.arisan1000.android:id/return_iv</resource-id>
+		<content-desc></content-desc>
+		<!-- <xpath></xpath> -->
+		<text>
+			<language name="english">start</language>
+			<language name="indonesal">Mulai</language>
+		</text>
+	</element>
+	
+	<!-- 登录Tab元素 -->
+	<element name="registerLinkStr">
+		<description>注册文本链接</description>
+		<resource-id>com.arisan1000.android:id/tv_sign_up</resource-id>
+		<text>
+			<language name="english">register</language>
+			<language name="indonesal">disini</language>
+		</text>
+	</element>
+	<element name="FBLoginBtn">
+		<description>FB登录按钮</description>
+		<resource-id>com.arisan1000.android:id/login_fb_btn</resource-id>
+		<text>
+			<language name="english">register</language>
+			<language name="indonesal">Masuk melalui Facebook</language>
+		</text>
+	</element>
+	
+	<element name="GPLoginBtn">
+		<description>GP登录按钮</description>
+		<resource-id>com.arisan1000.android:id/login_google_btn</resource-id>
+		<text>
+			<language name="english">register</language>
+			<language name="indonesal">Masuk melalui Google+</language>
+		</text>
+	</element>
+	
+	<element name="emailLoginBtn">
+		<description>Email登录按钮</description>
+		<resource-id>com.arisan1000.android:id/email_login</resource-id>
+	</element>
+	
+	<!-- 注册Tab元素 -->
+	<element name="loginLinkStr">
+		<description>登录文本链接</description>
+		<resource-id>com.arisan1000.android:id/tv_sign_in</resource-id>
+		<text>
+			<language name="english">login</language>
+			<language name="indonesal">Langsung masuk</language>
+		</text>
+	</element>
+	<element name="FBRegisterBtn">
+		<description>FB注册按钮</description>
+		<resource-id>com.arisan1000.android:id/register_fb_btn</resource-id>
+		<text>
+			<language name="english">register</language>
+			<language name="indonesal">	Mendaftar melalui Facebook</language>
+		</text>
+	</element>
+	
+	<element name="GPRegisterBtn">
+		<description>GP注册按钮</description>
+		<resource-id>com.arisan1000.android:id/login_google_btn</resource-id>
+		<text>
+			<language name="english">register</language>
+			<language name="indonesal">com.arisan1000.android:id/register_google_btn</language>
+		</text>
+	</element>
+	
+	<element name="emailRegisterBtn">
+		<description>Email注册按钮</description>
+		<resource-id>com.arisan1000.android:id/email_register</resource-id>
+	</element>
+
+	<!-- 登录页面元素 -->
+	<!-- 用户名密码输入框 -->
+	<elements name="EditInput" id="com.arisan1000.android:id/float_label_layout_edit_text">
+		<element name="emailInput" index="0">
+			<description>Email地址输入框</description>
+			<text>
+				<language name="english">Share</language>
+				<language name="indonesal">E-mail</language>
+			</text>
+		</element>
+		<element name="pwdInput" index="1">
+			<description>密码输入框</description>
+		</element>
+	</elements>
+	
+	<element name="LoginPageTitle">
+		<description>登录页面标题</description>
+		<resource-id>com.arisan1000.android:id/email_login_title</resource-id>
+		<text>
+			<language name="english">login</language>
+			<language name="indonesal">Masuk</language>
+		</text>
+	</element>
+	<element name="loginBtn">
+		<description>登录按钮</description>
+		<resource-id>com.arisan1000.android:id/email_login_btn</resource-id>
+		<text>
+			<language name="english">login</language>
+			<language name="indonesal">Masuk</language>
+		</text>
+	</element>
+	<element name="TextSignWith">
+		<description>其他登录方式文案</description>
+		<resource-id>com.arisan1000.android:id/email_login_tv_sign_in_with</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Atau masuk dengan</language>
+		</text>
+	</element>
+	<element name="FBLoginBtn1">
+		<description>FaceBook登录按钮</description>
+		<resource-id>com.arisan1000.android:id/facebook_login_from_email_login</resource-id>
+	</element>
+	<element name="GPLoginBtn1">
+		<description>Google Play登录按钮</description>
+		<resource-id>com.arisan1000.android:id/google_login_from_email_login</resource-id>
+	</element>
+	<element name="contactUs">
+		<description>忘记密码联系我们</description>
+		<resource-id>com.arisan1000.android:id/email_login_tv_contact_us</resource-id>
+	</element>
+	<element name="contactEmail">
+		<description>忘记密码联系我们</description>
+		<resource-id>com.arisan1000.android:id/email_login_contact_email</resource-id>
+	</element>
+	
+	<!-- 注册页面元素 -->
+	<element name = "registerPageTitle">
+		<description>注册页面标题</description>
+		<resource-id>com.arisan1000.android:id/email_register_title</resource-id>
+		<text>
+			<language name="english">Register</language>
+			<language name="indonesal">Daftar</language>
+		</text>
+	</element>
+	
+	<!-- 三个文本输入框：Email地址、password、repassword -->
+	<elements name="textInput" id="com.arisan1000.android:id/float_label_layout_edit_text">
+		<element name="emailAddrInput" index="0">
+			<description>Email地址输入框</description>
+		</element>
+		<element name="passwordInput" index="1">
+			<description>密码输入框</description>
+		</element>
+		<element name="rePasswordInput" index="2">
+			<description>密码确认</description>
+		</element>
+	</elements>
+
+	<element name="regBtn">
+		<descrition>注册按钮</descrition>
+		<resource-id>com.arisan1000.android:id/email_register_btn</resource-id>
+		<text>
+			<language name="english">Register</language>
+			<language name="indonesal">Daftar</language>
+		</text>
+	</element>
+	
+	<!-- 邀请好友页面 -->
+	<element name="invitePageTitle">
+		<descrition>邀请好友页面</descrition>
+		<resource-id>com.arisan1000.android:id/title_bar_title</resource-id>
+		<text>
+			<language name="english">invite friends</language>
+			<language name="indonesal">Masukkan Email Pengundang</language>
+		</text>
+	</element>
+	<element name="friendEmailInput">
+		<descrition>好友Email输入框</descrition>
+		<resource-id>com.arisan1000.android:id/float_label_layout_edit_text</resource-id>
+	</element>
+	<element name="inviteSubmit">
+		<descrition>确认提交</descrition>
+		<resource-id>com.arisan1000.android:id/invite_submit</resource-id>
+		<text>
+			<language name="english">submit</language>
+			<language name="indonesal">Yakin</language>
+		</text>
+	</element>
+	<element name="inviteSkip">
+		<descrition>跳过</descrition>
+		<resource-id>com.arisan1000.android:id/invite_skip</resource-id>
+		<text>
+			<language name="english">skip</language>
+			<language name="indonesal">Tutup</language>
+		</text>
+	</element>
+	
+	
+</class>

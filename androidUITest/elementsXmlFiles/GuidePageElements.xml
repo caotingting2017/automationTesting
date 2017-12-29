@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class [
+<!ATTLIST element name ID #REQUIRED>
+]>
+<class name="GuidePageElements">
+	<!-- element 标签中，name的值与text标签中，english子元素的值保持一致 -->
+	<element name="view">
+		<description>第一次启动时，滑动的引导页</description>
+		<resource-id>com.arisan1000.android:id/viewpager</resource-id>
+	</element>
+	
+	<element name="nextBtn">
+		<description>next按钮</description>
+		<resource-id>com.arisan1000.android:id/action_button</resource-id>
+		<text>
+			<language name="english">next</language>
+			<language name="indonesal">Berikutnya</language>
+		</text>
+	</element>
+	
+	<element name="start">
+		<description>开始按钮</description>
+		<!-- <name>start</name> -->
+		<resource-id>com.arisan1000.android:id/action_button</resource-id>
+		<content-desc></content-desc>
+		<!-- <xpath></xpath> -->
+		<text>
+			<language name="english">start</language>
+			<language name="indonesal">Mulai</language>
+		</text>
+	</element>
+	
+	<!-- 滑动引导页的文案 -->
+	<element name="page1_title">
+		<description>第一个滑动页面的文案</description>
+		<resource-id>com.arisan1000.android:id/tv_page1_title</resource-id>
+		<text>
+			<language name="english">start</language>
+			<language name="indonesal">Gunakan Rp 1.000 untuk dapat Beragam Produk</language>
+		</text>
+	</element>
+	
+	<element name="page2_title">
+		<description>第二个滑动页面的文案</description>
+		<resource-id>com.arisan1000.android:id/tv_page2_title</resource-id>
+		<text>
+			<language name="english">start</language>
+			<language name="indonesal">Memilih produk apel yang bernilai Rp 5.000</language>
+		</text>
+	</element>
+	
+	<element name="page3_title">
+		<description>第三个滑动页面的文案</description>
+		<resource-id>com.arisan1000.android:id/tv_page3_title</resource-id>
+		<text>
+			<language name="english">start</language>
+			<language name="indonesal">Saya menggunakan Rp 1.000, tingkat keberhasilan 20%</language>
+		</text>
+	</element>
+	
+	<element name="page4_title">
+		<description>第四个滑动页面的文案</description>
+		<resource-id>com.arisan1000.android:id/tv_page4_title</resource-id>
+		<text>
+			<language name="english">start</language>
+			<language name="indonesal">Sangat beruntung! pakai Rp 1.000 dapat apel yang seharga Rp 5.000</language>
+		</text>
+	</element>
+</class>

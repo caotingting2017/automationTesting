@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class [
+<!ATTLIST element name ID #REQUIRED>
+<!ATTLIST element index CDATA #IMPLIED>
+]>
+<class name="RechargePageElements">
+	<element name="goBackIcon">
+		<description>返回按钮</description>
+		<resource-id>com.arisan1000.android:id/title_bar_left_first</resource-id>
+	</element>
+	<element name="chargeTitle">
+		<description>充值页面标题</description>
+		<resource-id>com.arisan1000.android:id/title_bar_title</resource-id>
+		<text>
+			<language name="english">Share</language>
+			<language name="indonesal">Isi ulang</language>
+		</text>
+	</element>
+	<element name="chargeMethodStr">
+		<description>充值方式选择文案</description>
+		<resource-id>com.arisan1000.android:id/tv_recharge_pay_message</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal"></language>
+		</text>
+	</element>
+
+	<!-- 充值方式列表 -->
+	<elements name="chargeMethodList" id="com.arisan1000.android:id/item_recharge_pay_method">
+		<element name="nameValue" index="0">
+			<description>indosal</description>
+		</element>
+	</elements>
+	
+	<!-- 充值金额弹框 -->
+	<element name="chargeAlertTitle">
+		<description>弹框标题</description>
+		<resource-id>com.arisan1000.android:id/select_amount</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Pilih jumlah pembayaran</language>
+		</text>
+	</element>
+	
+	<!-- 充值金额列表 -->
+	<elements name="chargeAmountList" id="com.arisan1000.android:id/charge_amount">
+		<element name="RP5000" index="0">
+			<description>RP5000</description>
+		</element>
+	</elements>
+
+	<!-- cashback值（列表） -->
+	<elements name="cashBackList" id="com.arisan1000.android:id/charge_amount_cash_back">
+		<element name="RP2000" index="0">
+			<description>RP2000</description>
+		</element>
+	</elements>
+	
+	<!-- 充值金额单选框按钮 -->
+	<elements name="selectedBtnList" id="com.arisan1000.android:id/iv_selected_item">
+		<element name="RP5000Selected" index="0">
+			<description>RP5000选中按钮</description>
+		</element>
+	</elements>
+	
+	<element name = "selectedAmountConfirm">
+		<description>金额选择确认按钮</description>
+		<resource-id>com.arisan1000.android:id/select_amount_confirm</resource-id>
+		<text>
+			<language name="english">confirm</language>
+			<language name="indonesal">Konfirmasi</language>
+		</text>
+	</element>
+	
+	<!-- codapay 充值页面 -->
+	<element name="inputPhoneNumber">
+		<description>电话输入框</description>
+		<resource-id>input_phone_number</resource-id>
+	</element>
+	
+	<element name="mdnSubmit">
+		<description>电话输入确认按钮</description>
+		<resource-id>mdn-submit</resource-id>
+	</element>
+	
+	<element name="inputOtp">
+		<description>验证码输入框</description>
+		<resource-id>input_otp</resource-id>
+	</element>
+	
+	<element name="otpSubmit">
+		<description>验证码确认按钮</description>
+		<resource-id>otp-submit</resource-id>
+	</element>
+	
+	<element name="codalPayConfirm">
+		<description>验证码确认按钮</description>
+		<resource-id>continue</resource-id>
+	</element>
+	
+	<!-- 取消充值确认弹框 (app) -->
+	<element name="cancelChargeAlertTitle">
+		<description>取消充值确认弹框</description>
+		<resource-id>com.arisan1000.android:id/tv_title</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Proses akhir untuk dapat Hadiah</language>
+		</text>
+	</element>
+	
+	<element name="continueBtn">
+		<description>继续充值</description>
+		<resource-id>com.arisan1000.android:id/btn_continue</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Lanjutkan</language>
+		</text>
+	</element>
+	
+	<element name="cancelBtn">
+		<description>取消充值</description>
+		<resource-id>com.arisan1000.android:id/tv_cancel</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Batal</language>
+		</text>
+	</element>
+	
+	<element name="gpRechargeBtn">
+		<description>GP充值弹框的购买按钮</description>
+		<resource-id>com.android.vending:id/continue_button</resource-id>
+	</element>
+	
+	<element name="payResultText">
+		<description>充值结果页--文案</description>
+		<resource-id>com.arisan1000.android:id/tv_pay_result</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Berhasil Isi ulang</language>
+		</text>
+	</element>
+	
+	<element name="payResultConfirmBtn">
+		<description>充值结果页--确认按钮</description>
+		<resource-id>com.arisan1000.android:id/btn_single</resource-id>
+		<text>
+			<language name="english"></language>
+			<language name="indonesal">Konfirmasi</language>
+		</text>
+	</element>
+</class>
