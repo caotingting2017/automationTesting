@@ -1,0 +1,15 @@
+{
+	"info":{
+		"platform": "web",
+		"version": "1.0.0.0"
+	},
+	"token":{
+		"token": "118c63a1-78c0-4cf3-b056-de2fcf343721",
+		"vno": 1493795891844,
+		"sign": "433e1e412fba38c74a9d567b65f84b87"
+	},
+	"data":{
+		"identity": "tina@163.com",
+		"password": "123457"
+	}
+}

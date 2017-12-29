@@ -1,0 +1,14 @@
+{
+	"code": 0,
+	"msg": "success",
+	"data": {
+		"token": {
+			"token": "dc40269d-3578-41fb-b4b7-db6332ed6ef2",
+			"vno": 1497869349941,
+			"sign": "ad9ca9cf5e657886ad4ae75491c64a5c"
+		},
+		"state": "visitor",
+		"expire": 172800,
+		"action": "validate"
+	}
+}
